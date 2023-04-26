@@ -7,6 +7,7 @@ import CreateStudentForm from "./components/add_student.tsx";
 import EditStudent from "./components/edit_student.tsx";
 import StudentDetails from "./components/student_details.tsx";
 import NavBar from "./components/navbar.tsx";
+import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
