@@ -12,7 +12,7 @@ import "./App.css";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <Router>
-      <div>
+      <center>
         <NavBar />
         <br />
         <br />
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           <Route path="/update/:id" element={<EditStudent />} />
           <Route path="/student/:id" element={<StudentDetails />} />
         </Routes>
-      </div>
+      </center>
     </Router>
   </React.StrictMode>
 );
