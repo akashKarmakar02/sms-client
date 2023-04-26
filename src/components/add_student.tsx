@@ -133,7 +133,7 @@ function CreateStudentForm() {
       <div className="grid md:grid-cols-2 md:gap-6">
         <div className="relative z-0 w-full mb-6 group">
           <input
-            type="number"
+            type="tel"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             name="floating_phone"
             id="floating_phone"
